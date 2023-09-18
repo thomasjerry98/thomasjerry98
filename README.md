@@ -1,5 +1,8 @@
 ### Hi there 👋 hello
 
+FROM rocker/rstudio
+RUN apt-get && apt-get install-y git curl
+
 <!--
 **thomasjerry98/thomasjerry98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
